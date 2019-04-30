@@ -1,0 +1,54 @@
+/*General CSS*/
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font: 16px Arial, Calibri;
+}
+/*Navigation bar*/
+nav {
+	background: #FFDBAA;
+	
+}
+/*Unordered list in Nav-Bar*/
+nav #nav-list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	padding: 16px;
+	text-align: center;
+	border: 1px solid black;
+	transition: background color 03.s;
+}
+
+nav ul li:hover {
+	background-color: #552700;
+}
+
+a {
+	text-decoration: none;
+	color: 	 #805215;
+}
+
+
+
+
+
+
+
+/*For Responsive Web design*/
+@media screen and (min-width: 700px){
+	nav ul {
+		text-align: right;
+	}
+
+	nav ul li {
+		display: inline-block;
+		border: 0px;
+		text-align: left;
+	}
+
+}
